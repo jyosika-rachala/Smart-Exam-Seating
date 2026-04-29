@@ -91,19 +91,19 @@ The Smart Exam Seating is a web-based application designed to automate and optim
    * Replace 'your-email@gmail.com' with your email address
    * Replace 'your-app-password' with your Gmail App Password
      
-  Step 3: Generate Gmail App Password
+   Step 3: Generate Gmail App Password
 
-  To generate an App Password:
+   To generate an App Password:
 
-  * Go to your Google Account settings
-  * Enable 2-Step Verification
-  * Search for App Passwords
-  * Select:
-     * App: Mail
-     * Device: Windows Computer
-  * Click Generate
-  * Copy the generated app password
-  * Paste it into EMAIL_HOST_PASSWORD
+   * Go to your Google Account settings
+   * Enable 2-Step Verification
+   * Search for App Passwords
+   * Select:
+      * App: Mail
+      * Device: Windows Computer
+   * Click Generate
+   * Copy the generated app password
+   * Paste it into EMAIL_HOST_PASSWORD
    
 9. Run the server:
 
