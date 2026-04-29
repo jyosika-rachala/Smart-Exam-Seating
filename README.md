@@ -1,8 +1,8 @@
-## Smart Exam Seating System 
+## Smart Exam Seating
 
 ## Project Overview
 
-The Smart Exam Seating System is a web-based application designed to automate and optimize the allocation of exam seating arrangements. It ensures fair distribution of students across rooms and reduces manual effort.
+The Smart Exam Seating is a web-based application designed to automate and optimize the allocation of exam seating arrangements. It ensures fair distribution of students across rooms and reduces manual effort.
 
 ##  Features
 
