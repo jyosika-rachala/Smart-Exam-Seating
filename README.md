@@ -42,12 +42,12 @@ The Smart Exam Seating is a web-based application designed to automate and optim
    
    To activate it
    
-   Windows
+   For Windows
    ```bash
    venv\Scripts\activate
    ```
    
-   Mac/Linux
+   For Mac/Linux
    ```bash
    source venv/bin/activate
    ```
