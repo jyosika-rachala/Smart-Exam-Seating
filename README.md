@@ -40,36 +40,38 @@ The Smart Exam Seating System is a web-based application designed to automate an
    python -m venv venv
    ```
    
-   To activivate it
+   To activate it
+   
    Windows
    ```bash
    venv\Scripts\activate
    ```
+   
    Mac/Linux
    ```bash
    source venv/bin/activate
    ```
 
-4. Install dependencies:
+5. Install dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
    
-5. Database Setup
+6. Database Setup
    
    ```bash
    python manage.py migrate
    ```
 
-6. Create Admin User
+7. Create Admin User
 
    ```bash
    python manage.py createsuperuser
    ```
    Enter username, email, password.
 
-7. Email Configuration (Important)
+8. Email Configuration (Important)
 
    To enable email notifications for students, configure your email settings in Django.
 
@@ -86,8 +88,8 @@ The Smart Exam Seating System is a web-based application designed to automate an
    EMAIL_HOST_PASSWORD = 'your-app-password'
    ```
    
-   * Replace your-email@gmail.com with your email address
-   * Replace your-app-password with your Gmail App Password
+   * Replace 'your-email@gmail.com' with your email address
+   * Replace 'your-app-password' with your Gmail App Password
      
   Step 3: Generate Gmail App Password
 
@@ -97,8 +99,8 @@ The Smart Exam Seating System is a web-based application designed to automate an
   * Enable 2-Step Verification
   * Search for App Passwords
   * Select:
-     ** App: Mail
-     ** Device: Windows Computer
+     * App: Mail
+     * Device: Windows Computer
   * Click Generate
   * Copy the generated app password
   * Paste it into EMAIL_HOST_PASSWORD
