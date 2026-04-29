@@ -116,9 +116,9 @@ The Smart Exam Seating System is a web-based application designed to automate an
    ```
    http://127.0.0.1:8000/
    ```
-After following the link add /login in the url(like http://127.0.0.1:8000/login) in order to redirect to Login page 
+After following the link add '/login' in the url(like http://127.0.0.1:8000/login) in order to redirect to Login page 
 
-## Login using the superuser account.
+# Login using the superuser account.
 
 ## Screenshots
 
@@ -128,4 +128,4 @@ After following the link add /login in the url(like http://127.0.0.1:8000/login)
 
 ## Author 👩‍💻
 
-Jyosika R
+# Jyosika R
