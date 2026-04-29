@@ -69,20 +69,36 @@ The Smart Exam Seating System is a web-based application designed to automate an
    ```
    Enter username, email, password.
 
-7. Configure Email (VERY IMPORTANT ⚠️)
-   Open:
-   exam_seating/settings.py
-   
-   Find this section and change:
-   EMAIL_HOST_USER = 'yourmail@gmail.com'
-   EMAIL_HOST_PASSWORD = 'your_app_password'
-   Replace these two sections with your email(from this email the mails will be sent to the students) and email app password 
+7. Email Configuration (Important)
 
-   To get email app password-follow these steps
-   *Turn on 2-Step Verification in Google
-   *Search "App Passwords"
-   *Generate for Mail → Windows Computer
-   *Paste the generated app password in settings.py
+To enable email notifications for students, configure your email settings in Django.
+
+   Step 1: Open Settings File
+
+Go to:
+
+exam_seating/settings.py
+   Step 2: Update Email Credentials
+
+Find and update the following fields:
+
+EMAIL_HOST_USER = 'your-email@gmail.com'
+EMAIL_HOST_PASSWORD = 'your-app-password'
+Replace your-email@gmail.com with your email address
+Replace your-app-password with your Gmail App Password
+  Step 3: Generate Gmail App Password
+
+To generate an App Password:
+
+Go to your Google Account settings
+Enable 2-Step Verification
+Search for App Passwords
+Select:
+App: Mail
+Device: Windows Computer
+Click Generate
+Copy the generated password
+Paste it into EMAIL_HOST_PASSWORD
    
 9. Run the server:
 
